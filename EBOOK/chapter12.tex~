@@ -11,7 +11,7 @@
 \usepackage{amsmath}
 \begin{document}
 \chapter{Individual spread Footing}
-%------------------------------------------------- page 1-----------------------------------------------%
+%------------ page 1---------------%
 \section{Introduction}
 Clause 34 of the Code gives the provisions governing the design of reinforced concrete footings. These provisions are similar to those given by the ACI code. The design of footings in accordance with IS : 456—2000 differs from that by the old code in the following aspects.
 
@@ -43,7 +43,7 @@ The Code requires footings to be designed for the following limit states.
 Individual spread footings can be either square or rectangular in plan, the area of a rectangular footing with sides A and B being given by,
 
 \begin{equation}
-AXB =\frac{p}{p} (cm^2)
+A \times B =\frac{p}{p}
 \end{equation}
 
 where P is the column load in kN and p denotes the net allowable soil pressure in kN/cm2. In
@@ -52,7 +52,7 @@ in that, the weight of the concrete of footing is assumed here to be approximate
 weight of the earth displaced by it. Further, it is assumed here that the soil pressure under
 the footing is uniform. This is a reasonable assumption as discussed elsewhere.\\
 The individual spread footings can be of the following types (Fig. 12.1).
-%--------------------------------------------------page 2-----------------------------------------------%
+%--------------page 2----------------%
 \newpage
 
 \b Diagrams
@@ -62,20 +62,20 @@ The individual spread footings can be of the following types (Fig. 12.1).
 \par Depth of footing is fixed from the consideration of perimeter shear stress which depends on concrete quality, being independent of types of reinforce steel. For a square footing of uniform depth with a square column of side a (Fig 12.1 a), perimeter shear tv is given by
 
 \begin{equation}
-Tv = \frac{Vu} {\quad{b_0}.d} 
-=\frac{1.5 \quad S_p} {4(a+d)d} 
+Tv = \frac{Vu} {{b_0}.d} 
+=\frac{1.5 S_p} {4(a+d)d} 
 \end{equation}
 
 Where 
 \begin{equation}
-\quad S_p = P-p . (a+d)^2
+ S_p = P-p . (a+d)^2
 \end{equation}
 
 and b0 = Perimeter of criticle closed section
 \par The allowable perimeter shear stress
-$\quad{T_a}$  
+${T_a}$  
 (clause 31.6.3 of the code) is given by,
-%-------------------------------------------------------page 3------------------------------------------%
+%-----------------page 3--------------%
 \newpage
 \b DIAGRAMS \\ 
 Where, fck is to be put in $N/m^2$ .\\
@@ -89,11 +89,11 @@ Where, fck is to be put in $N/m^2$ .\\
 
  For a square sloped footing with a square column of side a (Fig. 12.2 b),
 \begin{equation}
-Tv=\frac{Vu}{\quad{b_0}.d "}
-=\frac{15.0\quad{S_p}}{4(a+d)d"}.\alpha-k(say)
+Tv=\frac{Vu}{{b_0}.d "}
+=\frac{15.0{S_p}}{4(a+d)d"}.\alpha-k(say)
 \end{equation}
 
-Assuming d = $\alpha.d$ , the condition $\quad{T_v}=\quad{T_a}$  gives,
+Assuming d = $\alpha.d$ , the condition ${T_v}={T_a}$  gives,
 
 \begin{equation}
 \frac{\left[1-\left( \frac{a}{A} \right)^2-2\left(\frac{a}{A}\right)\left(\frac{d}{A}\right)-\left(\frac{d}{A} \right)^2 \right]}
@@ -101,7 +101,7 @@ Assuming d = $\alpha.d$ , the condition $\quad{T_v}=\quad{T_a}$  gives,
 =\frac{0.067\sqrt{fck}}{p}
 =k(say)
 \end{equation}
-%------------------------------------------------------page 4-------------------------------------------%
+%-----------------page 4------------%
 \newpage
 $\alpha = 1.0$ for footings of Types (a), (b) and (d) (Fig. 12.1), while alpha < 1.0 for sloped footings of
 Type (c). The overall depth of footing is given by,
@@ -111,7 +111,7 @@ D=d+c+\phi
 Here, d is regarded as an average value for either steel layer. For sloped footings (Fig. 12.2
 b), simple geometry gives,
 \begin{equation}
-\alpha=\frac{d"}{d}=\frac{\quad{D_m}}{d}+\frac{D-\quad{D_m}}{d}.\frac{\left( 1-\frac{a}{A}-\frac{d}{A}\right)}{\left( 1-\frac{a}{A}\right)}
+\alpha=\frac{d"}{d}=\frac{{D_m}}{d}+\frac{D-{D_m}}{d}.\frac{\left( 1-\frac{a}{A}-\frac{d}{A}\right)}{\left( 1-\frac{a}{A}\right)}
 \end{equation}
 \par Chart 12.1 is developed on the basis of equations (12.5) and (12.7) and it applies to both
 uniformly deep and sloped square footings. It can also be used for rectangular footings with
@@ -120,37 +120,49 @@ on all sides of column, which requires,
 \begin{equation}
 (b-a)=(B=A)
 \end{equation}
- \par Solution of numerical examples gives an idea that it is possible to develop thumb rules for ﬁxing depth of footings. It may be noted that there is no dire need of exactness in ﬁxing the value of depth of footing, only it should be more than adequate for the actions imposed on a footing. Table 12.1, based on equation (12.5), is developed for footings of Types (a) and (b) (Fig.12.1).\\\\
+ \par Solution of numerical examples gives an idea that it is possible to develop thumb rules for fixing depth of footings. It may be noted that there is no dire need of exactness in fixing the value of depth of footing, only it should be more than adequate for the actions imposed on a footing. Table 12.1, based on equation (12.5), is developed for footings of Types (a) and (b) (Fig.12.1).\\\\
  It gives values of $\frac{D}{A}$ for various practicable values of p. It is seen that, for safety in beam\\ \\shear, these values are  to be increased by 10\% in case of steel types Fe 415 and Fe 500. For sloped and stepped footings (Types c and d), the depth of footing given by Table 12.1 may be increased by 20\%. The depth at the free end of a footing may be restricted to 15 cm, which is the minimum prescribed by the Code for spread footings.
  
  \section{Design for Moment and Beam Shear} 
  Section 1-1 in Fig. 12.3 is the critical  Section for bending moment. The bending moment
 for full width B is given by,
 \begin{equation}
-\quad{M_1-1}=p.B.\frac{\left(A-a\right)}{8}(KN cm)
+{M_1-1}=p.B.\frac{\left(A-a\right)}{8}(KN cm)
 \end{equation}
 \par For footings of uniform depth and also stepped footings, the concrete compression zone is
 rectangular and charts of Chapter 2 are used to calculate the required area of steel. But for
 slopped footings, the concrete compression zone is of a trapezoidal shape and Chart 4.1 of
-Chapter 4 is to be used for ﬁnding steel area. Chart 4.1 can be used for both uniformly deep
+Chapter 4 is to be used for finding steel area. Chart 4.1 can be used for both uniformly deep
 $\left(\gamma = 0\right)$ and sloped footings. The calculated steel area should not be less than the spec1ﬁed minimum steel area (Table 11.4 of Chapter 11) for spread footings which may be regarded as slabs for this purpose. 
 \par Section 2-2 in Fig. 12.3 is the critical section for beam shear. The shear force and moment
 at section 2-2 for the full width of footing is given by,
 \begin{equation}
-\quad{S_2-2}=p.B.\left[\frac{A-a}{2}-d\right](kN)
+{S_2-2}=p.B.\left[\frac{A-a}{2}-d\right](kN)
 \end{equation}
 \begin{equation}
-\quad{M_2-2}=p.\frac{B}{2}.\left[\frac{A-a}{2}-d\right]^2(kN cm)
+{M_2-2}=p.\frac{B}{2}.\left[\frac{A-a}{2}-d\right]^2(kN cm)
 \end{equation}
-%---------------------------------------------------------page 5----------------------------------------%
+%-----------------page 5-------------%
 
 \newpage
 \b DIGRAMS HERE\\
-Beam shear,stress $\quad{T_v}$ for footings of uniform depth and stepped footings is given by,
+Beam shear,stress ${T_v}$ for footings of uniform depth and stepped footings is given by,
 \begin{equation}
-\quad{T_v}=\frac{\quad{V_u}}{bd}=\frac{1.5X\quad{S_2-2}}{bd}
+{T_v}=\frac{{V_u}}{bd}=\frac{1.5X{S_2-2}}{bd}
 \end{equation}
+Where, $$b=B for uniformally  deep footings$$ 
+$$=\alpha for stepped footing (Fig 12.1 d)$$
+For sloped footings, clause 40.1.1 of the Code gives, (-ve sign applies here),
+\begin{equation}
+{T_v}=\frac{{V_u}}{b'd'}-\frac{M_u}{b'd'^2}.tan B
+\end{equation}
+where b', d' are shown in Fig. 12.3 (a) and  12.3 (b) and ${M_u}$ is the ultimate moment at
+section 2-2.
 
+\newpage
+\begin{equation}
+D'={D_m}+(D-{D_m}).\frac{\left(1-\frac{a}{A}-2\frac{d}{A}\right)}{\left(1-\frac{a}{A}\right)}
+\end{equation}
 \end{document}
 
 
