@@ -14,8 +14,8 @@
 \contentsline {subsubsection}{\numberline {3.2.1}level 0}{7}
 \contentsline {subsubsection}{\numberline {3.2.2}level 1}{7}
 \contentsline {subsection}{\numberline {3.3}Database Design}{8}
-\contentsline {section}{\numberline {4}Methologies used }{8}
-\contentsline {subsection}{\numberline {4.1}EAV}{8}
+\contentsline {section}{\numberline {4}Methologies used }{9}
+\contentsline {subsection}{\numberline {4.1}EAV}{9}
 \contentsline {subsection}{\numberline {4.2}MVC}{9}
 \contentsline {subsection}{\numberline {4.3}MPTT}{10}
 \contentsline {subsection}{\numberline {4.4}Python}{10}

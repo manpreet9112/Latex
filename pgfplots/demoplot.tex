@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{pgfplotstable}
+\usepackage{booktabs}
+\begin{document}
+\begin{table}[h!]\centering
+        \pgfplotstableset{% global config, for example in the preamble
+            % these columns/<colname>/.style={<options>} things define a style
+            % which applies to <colname> only.
+            every head row/.style={before row=\toprule,after row=\midrule},
+            every last row/.style={after row=\bottomrule}
+            }
+         \pgfplotstabletypeset[% local config, applies only for this table
+            1000 sep={\,},
+            columns/info/.style={
+            fixed,fixed zerofill,precision=2,showpos,
+            column type=r,
+            }
+            ]
+            {example1.dat}
+        \caption{Estimated Data.}
+\end{table}
+\end{document}
