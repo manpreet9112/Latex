@@ -1,9 +1,0 @@
-\contentsline {chapter}{\numberline {12}Individual Spread Footing}{1}
-\contentsline {section}{\numberline {12.1}Introduction}{1}
-\contentsline {section}{\numberline {12.2}Types of individual Footings}{1}
-\contentsline {section}{\numberline {12.3}Design for Perimeter Shear}{2}
-\contentsline {section}{\numberline {12.4}Design for Moment and Beam Shear}{3}
-\contentsline {section}{\numberline {12.5}Development Length of Bars}{4}
-\contentsline {section}{\numberline {12.6}Selection of Type of Footings}{4}
-\contentsline {section}{\numberline {12.7}Examples}{5}
-\contentsline {section}{\numberline {12.8}Conclusion}{9}
