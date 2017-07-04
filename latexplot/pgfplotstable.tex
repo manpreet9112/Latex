@@ -1,0 +1,47 @@
+\documentclass{article}
+
+% http://sourceforge.net/projects/pgfplots/
+\usepackage{pgfplotstable}
+\usepackage{array}
+\usepackage{booktabs}
+
+\pgfplotstableset{
+    columns={dof,error1,{grad(log(dof),log(error1))}},
+    columns/error1/.style={
+        column name=$L_2$,
+        sci,sci zerofill,sci subscript,
+        precision=3},
+    columns/dof/.style={
+        int detect,
+        column name=\textsc{Dof}},
+    columns/{grad(log(dof),log(error1))}/.style={
+		dec sep align,
+        column name=slopes $L_2$,
+        fixed,
+        precision=1},
+    every head row/.style={
+        before row=\toprule,after row=\midrule},
+    every last row/.style={
+        after row=\bottomrule}}
+
+\begin{document}
+\pgfplotstabletypesetfile{pgfplotstable.example1.dat}
+\end{document}
+
+\begin{table}
+\centering
+\caption{Depth of Footing for Safe Bearing Capacity}
+\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|}
+ \hline
+ $p(kN cm^2)$ & \Fetwofivezeromacro & \Fefouronefivemacro, \Fefivezerozeromacro\\[0.8 ex]
+ \hline
+ 0.005 &$\frac{1}{8.0}$ &$\frac{1}{7.0}$\\[0.5 ex]
+ 0.010 &$\frac{1}{6.0}$ &$\frac{1}{5.5}$\\[0.5 ex]
+ 0.015&$\frac{1}{5.5}$ &$\frac{1}{5.0}$\\[0.5 ex]
+ 0.020 &$\frac{1}{5.0}$ &$\frac{1}{4.5}$\\[0.5 ex]
+ 0.025 &$\frac{1}{4.5}$ &$\frac{1}{4.0}$\\[0.5 ex]
+ 0.030 &$\frac{1}{4.0}$ &$\frac{1}{3.5}$\\[2 ex]
+ \hline
+    \end{tabular}
+    \label{chaptertable}
+\end{table}

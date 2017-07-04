@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{Dhiman_article}[2011/03/26 My custom class]
+\ProvidesClass{Dhiman_article}[2016/03/26 My custom class]
 \LoadClass[a4paper,twocolumn]{article}
 \usepackage[svgnames]{xcolor}
 \usepackage{fancyhdr}
