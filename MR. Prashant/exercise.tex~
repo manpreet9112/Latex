@@ -6,8 +6,11 @@
 \usepackage{tikz}
 \usepackage{graphicx}
 \pagestyle{fancy}
-\fancyfoot[C]{\textbf {Aegis Academy, Opp. Atul Sweets, Jehan Circle, Gangapur
+\usepackage{fancyheadings}
+%\fancyhead[C]{Aaegis}
+\fancyfoot[C]{\textbf {Aaegis Academy, Opp. Atul Sweets, Jehan Circle, Gangapur
 Road, Nasik}}
+\rhead{AAEGIS ACADEMY}
 %\usepackage[usenames, dvipsnames]{color}
 %===================================
 \usepackage{draftwatermark}
@@ -111,10 +114,14 @@ $tan^{-1}\bigg(\dfrac{3}{4}\bigg)+tan^{-1}\bigg(\dfrac{3}{5}\bigg)-tan^{-1}\bigg
 \subsection{Find the simplified value of each of the following inverse
 trigonometric terms :}
 \vspace{5mm} 
+\begin{multicols}[2]
 \begin{enumerate}[(i)]
 \item $sin^{-1}\bigg(\dfrac{1}{2}\bigg)$
 \item $cos^{-1}\bigg(\dfrac{\sqrt{3}}{2}\bigg)$
+\item $sin^{-1}\bigg(\dfrac{1}{2}\bigg)$
+\item $cos^{-1}\bigg(\dfrac{\sqrt{3}}{2}\bigg)$
 \end{enumerate}
+\end{multicols}
 \subsection{Find the simplified value of the following expressions :}
 
 \end{document}
