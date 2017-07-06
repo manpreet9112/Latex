@@ -1,6 +1,6 @@
 \documentclass[a4paper,10pt]{article}
 \input{exampackages.tex}
-
+\graphicspath{{images/}}
 \begin{document}
 \questiontype{Number System}
 \section{Section : Classification of Numbers}
@@ -11,6 +11,7 @@ the classification
 of numbers. Remember this classification looks so obvious or trivial
 today but humans took centuries to reach here. Reader should appreciate
 this.\\\\
+\pic{section1}
 Here are some notations to denote the set of numbers :\\\\
  N - Set of Natural Numbers = ${1,2,3,....}$\\
  N$_0$ or W - Set of whole numbers = ${0,1,2,...}$\\
@@ -100,7 +101,7 @@ Fact : Every non terminating and recurring number is a rational
 number.\\\\
 1) Express the following rational numbers as decimals
 \begin{multicols}{5}
-\begin{enumerate}[a.]
+\begin{enumerate}[(i)]
  \item $\dfrac{2}{3}$
  \item $-\dfrac{4}{5}$
  \item $-\dfrac{2}{15}$
@@ -109,41 +110,272 @@ number.\\\\
  \item $\dfrac{33}{26}$
 \end{enumerate}
 \end{multicols}
-
 \noindent 2) Look at several examples of rational numbers in the form
 $\dfrac{p}{q} (\neq 0)$, where p and q are integers with no common
 factors other than 1 and having terminating decimal representations. Can
 you guess what property q must satisfy?
 %===================== SECTION 2 END======================%
-%\section{Conversion and non-terminating recurring rational numbers in
-%the form $\dfrac{p}{q}$
-%1) Express 0.\overall{4} in the form $\dfrac{p}{q}$
-%2) Express each of the following decimals in the form 
-%\begin{multicols}{2}
-%\begin{enumerate}[a.]
-%\item 0.\overall{35}
-%\item 0.\overall{585}
-%CORRECT
-%\end{enumerate}
-%\end{multicols}
-%3) Express the following decimals in the form $\dfrac{p}{q}$
-%\begin{multicols}{3}
-%\begin{enumerate}[a.]
-%\item $0.3\overall{2}$
-%\item $0.12\overall{3}$
-%\item $0.003\overall{52}$
-%\end{enumerate}
-%\end{multicols}
-%3) Express each of the following decimals in the form $\dfrac{p}{q}
-%\begin{multicols}{7}
-%\begin{enumerate}[a.]
-%\item $0.\overall{4}$
-%\item $0.\overall{37}$
-%\item $0.\overall{54}$
-%\item $0.\overall{621}$
-%\item $125.\overall{3}$
-%\item $4.\overall{7}$
-%\item $0.\overall{47}$
-%\end{enumerate}
-%\end{multicols}
+\section{Conversion and non-terminating recurring rational numbers in
+the form $\dfrac{p}{q}$}
+1) Express $0.\overline{4}$ in the form $\dfrac{p}{q}$\\
+2) Express each of the following decimals in the form 
+\begin{multicols}{2}
+\begin{enumerate}[(i)]
+\item $0.\overline{35}$
+\item $0.\overline{585}$
+\end{enumerate}
+\end{multicols}
+\noindent 3) Express the following decimals in the form $\dfrac{p}{q}$
+\begin{multicols}{3}
+\begin{enumerate}[(i)]
+\item $0.3\overline{2}$
+\item $0.12\overline{3}$
+\item $0.003\overline{52}$
+\end{enumerate}
+\end{multicols}
+\noindent 4) Express each of the following decimals in the form $\dfrac{p}{q}$
+\begin{multicols}{7}
+\begin{enumerate}[(i)]
+\item $0.\overline{4}$
+\item $0.\overline{37}$
+\item $0.\overline{54}$
+\item $0.\overline{621}$
+\item $125.\overline{3}$
+\item $4.\overline{7}$
+\item $0.\overline{47}$
+\end{enumerate}
+\end{multicols}
+\vspace{5mm}
+\begin{center}
+********************************************* \textbf{\Large Tricky Tip}
+*******************************************
+$\dfrac{p}{q} = \dfrac{Complete Number - Number formed by non -
+repeating digits}{No.of 9 as no.of repeating digits after that write
+no.of 0 as no.of non - repeating digits}$
+\begin{enumerate}[(i)]
+\item  $0.\overline{57} = \dfrac{57-0}{99} = \dfrac{57}{99}$
+\item $0.\overline{347} = \dfrac{347-3}{990} = \dfrac{349}{990}$
+\item $0.53\overline{763} = \dfrac{53763-53}{99900} =
+\dfrac{53710}{99900} = \dfrac{5371}{9990}$
+\end{enumerate}
+*******************************************************************************************************
+\end{center}
+%%%%%%%%%%%%%%%%%%% END SECTION 3 %%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Section : Irrational Numbers (finding the square root by
+division method)}
+A number which is not rational is known as a irrational number. In other
+words, a number which can’t be written as $\dfrac{p}{q}$ form.\\
+Fact : Every non-terminating and non-recurring number is irrational
+number.\\\\
+$\sqrt{2},\sqrt{3},\sqrt{7},\pi$ are rational number.
+Let’s find the value of $\sqrt{2},\sqrt{3}$ by division method.\\\\
+1.\\
+\picx{section41}
+$\Rightarrow \sqrt{2} = 1.4142135$\\\\
+2.\\
+\picx{section42}
+$\Rightarrow \sqrt{3} = 1.732050807$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% End section 4 %%%%%%%%%%%%%%%%%%%
+\section{Section :
+Proof by Contradiction (Irrationality of $\sqrt{2}$)}
+We will discuss this topic more thoroughly in the chapter ‘Mathematical
+Logic’. Currently
+our main motive is to prove the irrationality of $\sqrt{2} i.e \sqrt{2}$
+can’t be written as $\dfrac{p}{q}$ form. This
+method ‘proof by contradiction’ is used frequently in calculus, one of
+the most interesting
+branch of mathematics. In this method we assume the negation of
+something which is to beproved then use deduce a contradiction which
+implies that our assumption was wrong. Now let’s prove that $\sqrt{2}$ is an
+irrational number.\\\\
+Assume that $\sqrt{2}$ is an rational number it means it can be written
+as $\dfrac{p}{q}$
+form. Let\\
+$\sqrt{2} = \dfrac{p}{q}$\\
+Where p, q are co-prime ($p, q$ have not common factor) Now we have\\
+$\alpha = \dfrac{p^2}{q^2}$\\
+$p^2 = \alpha q^2$\\\\
+It shows that $p^\alpha$ is an even integer, since $p$ is an integer it must be
+an even integer. So take $p = \alpha m$ for some integer m. Now we
+have\\\\
+$4 m^\alpha = 2 \alpha^2$\\
+$2 m^\alpha = q^2$\\\\
+It shows $q^\alpha$ is an even integer hence $q$ is an even integer which
+contradicts our assumption
+that $p, q$ are co-prime. Hence our assumption was wrong that
+$\sqrt{2}$ is an irrational number.
+$\sqrt{2}$ is an rational number.\\\\ 
+\large{\textbf{5.1 Exercises}}
+\usecounter{subsubsection}
+\subsubsection{Prove that $\sqrt{3}$ is an irrational number}
+\subsubsection{Prove that $\sqrt{5}$ is an irrational number}
+\subsubsection{Prove that $\sqrt{n}$ is an irrational number if n is not a
+perfect square.}
+\subsubsection{Prove that $\sqrt{3}+\sqrt{5}$ is an irrational number.}
+\subsubsection{Using the fact that negative of rational number is also a
+rational number prove that
+negative of irrational number is an irrational number.}
+\subsubsection{Prove that the sum of rational number and irrational
+number is an irrational number.}
+\subsubsection{Prove a disprove that sum of two irrational number is an
+irrational number.}
+\subsubsection{Prove that $\sqrt{ab}$ lies between two positive numbers between a
+and $b (a < b)$. Hence find 2
+irrational numbers between}
+\begin{multicols}{3}
+\begin{enumerate}[(i)]
+\item 2 and 3
+\item $\sqrt{2}$ and $\sqrt{3}$
+\item 2 and $\sqrt{5}$
+\end{enumerate}
+\end{multicols}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% END SECTION 5 %%%%%%%%%%%%%%%%%%%%
+\section{Primes and Composites}
+Definition : A prime number (or simply prime) is a natural number $p >1$
+whose only positive divisors 1 and $p$.\\\\
+Definition : A natural number greater than 1 which is not prime is called
+a composite number (or simply composite).\\\\
+Fact : 1 is the only natural number which is neither prime nor
+composite.\\
+Fact : If none of the prime number upto
+$\sqrt{n}$ divides $n$ then $n$ is a prime number. (Try to prove
+it yourself).\\\\
+\Large{\textbf{6.1 Exercises}
+\usecounter{subsubsection}
+\subsubsection{Identify which of the following is prime?}
+\begin{multicols}{3}
+\begin{enumerate}[(i)]
+\item 197
+\item 297
+\item 499
+\item 553
+\item 773
+\end{enumerate}
+\end{multicols}
+\subsubsection{Find the smallest composite number that has no prime
+factors less than 10.}
+\subsubsection{What is the largest two-digit prime number whose digits
+are also each prime?}
+\subsubsection{How many prime number are perfect cubes?}
+\subsubsection{The number 13 is prime. If you reverse the digits you
+also obtain a prime number, 31.
+What is the larger of the pair of primes that satisfies this condition
+and has a sum of 110?}
+\subsubsection{What is the smallest prime divisor of 101729 + 729101?}
+\subsubsection{A group of 25 coins is arrange into three piles such that
+each pile contains a different
+prime number of coins. What is the greatest number of coins possible in
+any of the three
+piles?}
+\subsubsection{Is 9409 prime?}
+\subsubsection{What are the 5 smallest prime numbers greater than 1000?}
+\subsubsection{What is the first year in the twenty-first century that
+is a prime number?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% END SECTION 6 %%%%%%%%%%%%%%%%%%%%%%%%
+\Large{\textbf{Answer}}\\\\
+\large{\textbf{Section 2}\\
+1)
+\begin{multicols}{5}
+\begin{enumerate}[a.]
+\item $0.\overline{6}$
+ \item $-0.\overline{4}$
+ \item $-0.\overline{13}$  
+ \item $-1.\overline{6692307}$ 
+ \item $0.\overline{437}$ 
+\end{enumerate}
+\end{multicols}
+ \large{\textbf{Section 3}\\
+%\usecounter{subsubsection}
+%\subsubsection{}
+1)
+Solution :\\
+Let $x = 0.\overline{4} = 0.444$\\
+10 $x = 4.444....$\\
+10 $ x - x = 4$\\
+$9x  = 4 = x = \dfrac{4}{9}$\\\\
+%\subsubsection{}
+2)  Solution :\\\\
+(i) Let $x = 0.\overline{35}$\\
+$x = 0.353535......(i)$\\\\
+Here, we have two repeating digits after the decimal point. So, we
+multiply sides of (i) by $10^2 = 100$ to get\\
+$100 x = 35.3535$... (ii)\\
+Subtracting (i) from (ii), we get\\
+$100x –x = (35.3535...) – (0.3535...)$\\
+$99x = 35$\\
+$X = \dfrac{35}{99}$\\
+Hence, $0.\overline{35} = \dfrac{35}{99}$\\\\
+%%%%%%%%%%%%%%%%%%%
+(ii) Let $x = 0.\overline{585}$\\
+$x = 0.585585585...$\\\\
+Here, we have three repeating digits after the decimal point. So, we
+multiply both sides of (i) by $10^3 =  1000$ to get\\\\
+$1000 x = 585.585585...$\\
+Subtracting (i) from (ii), we get\\
+$1000 x –x = (585.585585...)- (0.585585585...)$\\
+$1000 x – x = 585$\\
+$999x = 585$\\
+$ x = \dfrac{585}{999}$\\\\
+3) Solution\\\\
+(i) Let $x = 0.3\overline{2}$ \\\\
+Clearly, there is just one digit on the right side of the decimal point
+which is without bar. So,
+we multiply both sides of $x$ by 10 so that only the repeating decimal is
+left on the right side of
+the decimal point.\\\\
+ i.e $10 x = 3.\overline{2}$\\
+$\Rightarrow 10x = 3+0.\overline{2}$\\
+$\Rightarrow 10x = 3+\dfrac{2}{9}$\\
+$\Rightarrow 10x = \dfrac{9\times3+2}{9} \Rightarrow 10x = \dfrac{29}{9}
+\Rightarrow x = \dfrac{29}{90}$\\\\
+(ii) Let $x = 0.12\overline{3}$\\\\
+Clearly, there are two digits on the righ side of the decimal point
+which are without bar. So,
+we multiply both sides of $x$ by 102 = 100 so that only the repeating
+decimal is left on the right
+side of the decimal point.\\\\
+i.e $100x = 12.\overline{3}$\\
+$\Rightarrow 100x = 12+0.\overline{3}$\\  
+$\Rightarrow 100x = 12+\dfrac{3}{9}$\\
+$\Rightarrow 100x = \dfrac{12\times9+3}{9}$\\
+$\Rightarrow 100x = \dfrac{108+3}{9} \Rightarrow 100x = \dfrac{111}{9}
+\Rightarrow x = \dfrac{111}{900}$\\\\
+(iii) Let $x = 0.003\overline{52}$\\\\
+Clearly, there are three digits on the right side of the decimal point
+which are without bar. So,
+we multiply both sides of $x$ by 103= 1000 so that only the repeating
+decimal is left on the
+right side of the decimal point.\\
+i.e $1000x = 3.\overline{52}$\\
+$\Rightarrow  1000x =  3+0.52$\\
+$\Rightarrow  1000x = 3+\dfrac{52}{99}$\\
+$\Rightarrow  1000x = \dfrac{3\times99+52}{99}$\\
+$\Rightarrow  1000x = \dfrac{297+52}{99} \Rightarrow  1000x =
+\dfrac{349}{99} \Rightarrow  x = \dfrac{340}{99000}$\\\\
+4) Solution\\\\
+\begin{multicols}{6}
+\begin{enumerate}[(i)]
+\item $\dfrac{4}{9}$
+\item  $\dfrac{37}{99}$
+\item $\dfrac{6}{11}$
+\item $\dfrac{23}{37}$
+\item $\dfrac{376}{3}$
+\item $\dfrac{43}{9}$
+\item $\dfrac{43}{90}$
+\end{enumerate}
+\end{multicols}
+
+
+
+
+
+
+
+
+
+
+
+
+
+%=============================e
 \end{document}
