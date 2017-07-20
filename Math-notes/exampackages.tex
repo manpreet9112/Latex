@@ -1,0 +1,47 @@
+\usepackage[left=1.0cm, right=1.0cm, top=1.5cm, bottom=2.0cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{tikz}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage[edges]{forest}
+\usetikzlibrary{arrows.meta}
+%\pagestyle{fancy}
+%\usepackage{fancyheadings}
+%\fancyhead[C]{Aaegis}
+%\fancyfoot[C]{\textbf {Aaegis Academy, Opp. Atul Sweets, Jehan Circle,
+%Gangapur
+%Road, Nasik}}
+%\lhead{Board Level Exercise}
+%\rhead{AAEGIS ACADEMY}
+%\usepackage[usenames, dvipsnames]{color}
+%===================================
+\usepackage{draftwatermark}
+\SetWatermarkText{\includegraphics{images/logo.png}}
+\SetWatermarkLightness{0.1}
+\SetWatermarkScale{1.0}
+%============= MACRO ====================================%
+\newcommand{\questiontype}[1]{\begin{center}\hrule \vspace{2mm}
+\Huge{\textbf{#1}}\vspace{2mm}\hrule \end{center}}
+%\renewcommand\thesubsubsection{\normalsize {Q. \arabic{subsubsection}}}
+%\setcounter{subsubsection}{0}
+\newcommand{\pic}[1]{
+
+\begin{center}
+
+\includegraphics[width=0.8\linewidth]{#1.png}
+
+\end{center}
+
+}
+\newcommand{\picx}[1]{
+
+\begin{center}
+
+\includegraphics[width=0.3\linewidth]{#1.png}
+
+\end{center}
+
+}

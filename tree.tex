@@ -1,0 +1,19 @@
+\documentclass[border=10pt]{standalone}
+\usepackage[edges]{forest}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{forest}
+  forked edges,
+  for tree={edge+={-Latex}},
+  [Number
+    [Real Number
+      [Rational Numbers
+        [Fractional]
+        [Integers]
+      ]
+      [Irrational Numbers]
+    ]
+    [Imaginary Number]
+  ]
+\end{forest}
+\end{document}
